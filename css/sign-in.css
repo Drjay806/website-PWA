@@ -1,0 +1,44 @@
+/* screen - sign-in and sign-up */
+
+.centerb {
+  position: absolute;
+  opacity: 0.6;
+  margin: 0px;
+  margin-left: 20%;
+  width: 80px;
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 8px 16px 32px #1b75371a;
+  padding: 32%;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.card.large {
+  height: 500px;
+  margin-right: 20%;
+  margin-left: 20%;
+  opacity: 0.87;
+  border-radius: 10px;
+}
+
+.backImg {
+  background: url(/img/indexbackground.jpg) no-repeat fixed center center;
+  background-size: 1462px 1000px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.backImgsmall {
+  background: url(/img/indexbackground.jpg) no-repeat fixed center center;
+  background-size: 1462px 1000px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  filter: brightness(50%);
+}
